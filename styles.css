@@ -1,0 +1,70 @@
+#H1 {
+  font-size: 50px;
+  font-family: Dosis;
+  color: rgb(241, 196, 15);
+  background: rgb(34, 49, 63);
+
+  padding: 20;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Dosis;
+  color: rgb(241, 196, 15);
+
+}
+
+#embed {
+  height: 70%;
+  width: 100%;
+  background: rgb(13, 46, 86);
+}
+
+#home {
+  text-decoration: none;
+  color: rgb(241, 196, 15);
+
+}
+
+#home:hover {
+  background: rgb(52, 73, 94);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(44, 62, 80);
+}
+
+.hB {
+  float: right;
+  text-decoration: none;
+  color: rgb(241, 196, 15);
+  margin-left: 20;
+  padding-left: 10;
+  padding-right: 10
+}
+
+.hB:hover {
+  background: rgb(52, 73, 94);
+}
+.bP {
+  font-size: 25;
+  text-decoration: none;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:5%;
+  padding-bottom: 5%;
+  font-family: Economica;
+  color: rgb(244, 208, 63);
+  background: rgb(52, 73, 94);
+}
+
+.bP > h1 {
+  margin-left:20%;
+  margin-right:20%;
+}
+
+.bP > p {
+  margin: 20;
+}
