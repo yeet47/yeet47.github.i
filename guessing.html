@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      p {
+        color:white
+      }
+      #a {
+        padding: 0;
+        border: none;
+        background: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> Guess a Number </h1>
+    <input placeholder="Type Guess"></input>
+    <button id='b'> Guess </button>
+    <p>12</p>
+    <button id='a'>123</button>
+
+    <script>
+      txt = document.querySelector('h1')
+      gN = document.querySelector('input')
+      g = document.querySelector('#b')
+      a = document.querySelector('p')
+      b = document.querySelector('#a')
+
+      s = Math.ceil(Math.random()*100)
+
+      a.innerText = s
+      b.onclick = function () {
+        a.style.color = 'black'
+      }
+
+      g.onclick = function() {
+        userInput = gN.value
+        if (userInput > s) {
+          txt.innerText = "Greater than actual number"
+        }
+        else if (userInput < s) {
+          txt.innerText = "Less than actual number"
+        }
+        else {
+          txt.innerText = 'Correct'
+          txt.style.color = 'magenta'
+        }
+      }
+
+    </script>
+  </body>
+</html>
